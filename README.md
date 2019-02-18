@@ -45,6 +45,7 @@ UPDATE Customers SET PostalCode = 11122 WHERE CustomerId = 92;
 
   - `id`, numeric value with no decimal places that should autoincrement.
   - `name`, string, add whatever is necessary to make searching by name faster.
+  - I added indexing on the name above. 
   - `budget` numeric value.
 
 - constraints
